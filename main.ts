@@ -16,9 +16,9 @@ basic.pause(1000)
 
 // add cookie
 input.onButtonPressed(Button.A, function () {
-  basic.showNumber(cookies) 
+  basic.showNumber(cookies)
   cookies = cookies + 1
-  })
+})
 
 // reset cookies
 input.onButtonPressed(Button.B, function () {
