@@ -22,6 +22,6 @@ input.onButtonPressed(Button.A, function () {
 
 // reset cookies
 input.onButtonPressed(Button.B, function () {
-    cookies = 0
-    basic.showNumber(cookies)
+  cookies = 0
+  basic.showNumber(cookies)
 })
